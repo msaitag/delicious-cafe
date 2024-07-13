@@ -14,14 +14,18 @@ export default {
   props:['index'],
   data(){
     return{
-      gallery :[],
+      gallery :[{"title": "Ice Americano", "id": 1, "price": 20, "type": "cold", "link": "ice-americano.jpg"},
+        {"title": "Filter Coffee", "id": 2, "price": 25, "type": "hot", "link": "filter-coffee.jpg"},
+        {"title": "Machiato", "id": 3, "price": 15, "type": "hot", "link": "macchiato.jpg"},
+        {"title": "Americano", "id": 4, "price": 22, "type": "hot", "link": "americano.jpg"},
+        {"title": "Cool Lime", "id": 5, "price": 35, "type": "hot", "link": "cool-lime.jpg"}],
       clicked: false
     }
   },
-  async mounted(){
-    let result = await axios.get("http://localhost:3000/coffees");
-    this.gallery = result.data;
-  },
+  // async mounted(){
+   // let result = await axios.get("http://localhost:3000/coffees");
+   // this.gallery = result.data;
+ // },
   methods:{
     start(){
       this.clicked = true
