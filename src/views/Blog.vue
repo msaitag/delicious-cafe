@@ -90,7 +90,7 @@ export default {
     }
   },
   async mounted(){
-    let blogs = await axios.get("http://localhost:3000/blogs")
+    let blogs = await axios.get("https://delicious-cafe.onrender.com/blogs")
     this.blogs = blogs.data
   },
   components:{
