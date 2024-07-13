@@ -65,13 +65,13 @@ export default {
     }
   },
   async mounted(){
-     let breakfasts = await axios.get("http://localhost:3000/breakfast")
+     let breakfasts = await axios.get("https://delicious-cafe.onrender.com/breakfast")
      this.breakfasts = breakfasts.data
 
-     let lunchs = await axios.get("http://localhost:3000/lunch")
+     let lunchs = await axios.get("https://delicious-cafe.onrender.com/lunch")
      this.lunchs = lunchs.data
 
-     let dinners = await axios.get("http://localhost:3000/dinner")
+     let dinners = await axios.get("https://delicious-cafe.onrender.com/dinner")
      this.dinners = dinners.data
   },
   components: {
