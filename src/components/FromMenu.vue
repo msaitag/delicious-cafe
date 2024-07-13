@@ -28,13 +28,17 @@ import axios from 'axios'
 export default {
     data(){
         return{
-            coffees: []
+            coffees: [{"title": "Ice Americano", "id": 1, "price": 20, "type": "cold", "link": "ice-americano.jpg"},
+        {"title": "Filter Coffee", "id": 2, "price": 25, "type": "hot", "link": "filter-coffee.jpg"},
+        {"title": "Machiato", "id": 3, "price": 15, "type": "hot", "link": "macchiato.jpg"},
+        {"title": "Americano", "id": 4, "price": 22, "type": "hot", "link": "americano.jpg"},
+        {"title": "Cool Lime", "id": 5, "price": 35, "type": "hot", "link": "cool-lime.jpg"}]
         }
     },
-    async mounted(){
-        let results = await axios.get("http://localhost:3000/coffees")
-        this.coffees = results.data
-    }
+   // async mounted(){
+     //   let results = await axios.get("http://localhost:3000/coffees")
+       // this.coffees = results.data
+   // }
 
 }
 </script>
