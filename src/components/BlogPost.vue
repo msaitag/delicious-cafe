@@ -38,13 +38,17 @@ export default {
     // ],
     data(){
         return{
-            blogs: []
+            blogs: [{"title": "barcecue party tips for amazing event", "id": 1, "content": "So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? The following tips will jumpstart your creative thinking and help you write a better ad.", "disting": "Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy", "picture": "brooke-lark-254998.jpg", "date": "July 30, 2017", "type": 1},
+        {"title": "The principles of scientific cooking", "id": 2, "content": "So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? The following tips will jumpstart your creative thinking and help you write a better ad.", "disting": "Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy", "picture": "chuttersnap-348313.jpg", "date": "September 24, 2017", "type": 2},
+        {"title": "Cooking for one", "id": 3, "content": "So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? The following tips will jumpstart your creative thinking and help you write a better ad.", "disting": "Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy", "picture": "brooke-lark-275181.jpg", "date": "November 3, 2017", "type": 3},
+        {"title": "what about need to know oil fondue", "id": 4, "content": "So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? The following tips will jumpstart your creative thinking and help you write a better ad.", "disting": "Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy", "picture": "michael-browning-188999.jpg", "date": "August 9, 2017", "type": 1},
+        {"title": "types of cookware pots and pans", "id": 5, "content": "So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? The following tips will jumpstart your creative thinking and help you write a better ad.", "disting": "Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy", "picture": "tim-wright-299897.jpg", "date": "October 19, 2017", "type": 2}]
         }
     },
-    async mounted(){
-      let blogs = await axios.get("http://localhost:3000/blogs")
-      this.blogs = blogs.data
-    }
+    // async mounted(){
+     // let blogs = await axios.get("http://localhost:3000/blogs")
+     // this.blogs = blogs.data
+   // }
 }
 </script>
 
