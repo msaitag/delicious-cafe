@@ -26,8 +26,7 @@
             <li class="footer-posts" v-if="index < 3">
 
                 <h3>{{ blog.date }}</h3>
-                <a href="/"><p>{{ blog.title }}</p></a>
-                
+              <router-link to="/blog" class="footer-navigation"><p>{{ blog.title }}</p></router-link>               
             </li>
         </div>
         <a class="view-more" href="">View All Posts</a>
