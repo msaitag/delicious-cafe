@@ -19,7 +19,10 @@
             
         </div>
          </div>
-        <button>View Full Menu</button>
+      <router-link to="/menu">
+          <button>View Full Menu</button>
+        </router-link>
+        
     </div> 
   </div>
 </template>
