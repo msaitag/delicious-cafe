@@ -41,8 +41,8 @@
 
 <style>  
   .delicious{
-    margin-left: 10px;
-    margin-top: -5px;
+    margin-left: 20px;
+    margin-top: -10px;
   }
 *{
   box-sizing: border-box;
