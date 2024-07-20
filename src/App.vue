@@ -146,6 +146,10 @@ nav a:last-child:hover{
 
 
 @media only screen and (min-width: 991px){
+  .delicious{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 
 *{
   box-sizing: border-box;
