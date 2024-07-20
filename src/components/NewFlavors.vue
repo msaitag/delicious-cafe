@@ -6,7 +6,9 @@
     <div class="gold-line"> </div>
     <div class="gold-line"> </div>
     <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history. These days, many cooks yearn to add fish to their repertoire, but the whole process of cleaning and filleting fresh fish is a little scary to them. The process of cleaning and filleting fresh fish is relatively simple once the steps are understood.  To begin, you must clean your fresh fish properly in order to maintain it’s quality.</p>
-    <button>More About Us</button>
+    
+    <router-link to="/about"><button>More About Us</button></router-link>
+
     </div>
   </div>
 </template>
