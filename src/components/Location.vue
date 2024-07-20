@@ -27,7 +27,7 @@
             <li><p>Saturday</p><div></div><p>8AM-10PM</p></li>
             <li><p>Sunday</p><div></div><p>8AM-10PM</p></li>    
         </ul>
-        <button>Reservation</button>
+          <router-link to="/reservation"><button>Reservation</button></router-link>
     </div>
     </div>
   </div>
