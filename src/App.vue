@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="nav-container">
-    <router-link to="/">CAFE</router-link> 
+    <router-link class="delicious" to="/">CAFE</router-link> 
     <img @click="toggle" id="dropDown" src="./assets/icons/bars-solid.svg" alt="">
     <div id="dropdown" class="nav-links hide">
     <router-link to="/">Home</router-link> 
@@ -40,6 +40,10 @@
 </script>
 
 <style>  
+  .delicious{
+    margin-left: 10px;
+    margin-top: -5px;
+  }
 *{
   box-sizing: border-box;
   padding: 0;
