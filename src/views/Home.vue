@@ -16,7 +16,7 @@
     <div class="h1">{{ text.h2 }}</div>
     <div class="gold-line"></div>
     <div class="p">{{ text.p }}</div>
-    <button class="btn">{{ text.btn }}</button>
+    <button class="btn"><router-link to={text.link}>{text.btn}</router-link></button>
 
     </carousel-text>
     <ul>
@@ -63,9 +63,9 @@ export default {
         'mahdiar-mahmoodi-0XmMGAsIVvc-unsplash (1).jpg'
       ],
 
-      texts: [{h1:"Welcome to", h2:"delicious café", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.", btn:"Contact"},
-      {h1:"Explore", h2:"tasty menu dishes", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history2.", btn:"View Menu Items"}, 
-      {h1:"Join to", h2:"special events", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history3.", btn:"Learn More"}],
+      texts: [{h1:"Welcome to", h2:"delicious café", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.", btn:"Contact", link: "/contact"},
+      {h1:"Explore", h2:"tasty menu dishes", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history2.", btn:"View Menu Items", link: "/menu"}, 
+      {h1:"Join to", h2:"special events", p:"Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history3.", btn:"Learn More", link: "/blog"}],
 
       visibleImage : 0
       
