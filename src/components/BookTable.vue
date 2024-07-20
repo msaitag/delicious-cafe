@@ -5,7 +5,7 @@
     <h1>Book Your Table</h1>
     <div class="gold-line"> </div>
     <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.</p>
-    <button>Book a Table</button>
+      <router-link to="/reservation"><button>Book a Table</button></router-link>
     </div>
   </div>
 </template>
