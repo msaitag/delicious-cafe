@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="nav-container">
-    <router-link to="/">DELICIOUS</router-link> 
+    <router-link to="/">CAFE</router-link> 
     <img @click="toggle" id="dropDown" src="./assets/icons/bars-solid.svg" alt="">
     <div id="dropdown" class="nav-links hide">
     <router-link to="/">Home</router-link> 
