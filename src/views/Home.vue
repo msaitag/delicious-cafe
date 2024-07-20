@@ -16,7 +16,7 @@
     <div class="h1">{{ text.h2 }}</div>
     <div class="gold-line"></div>
     <div class="p">{{ text.p }}</div>
-    <button class="btn"><router-link to={text.link}>{text.btn}</router-link></button>
+    <router-link to={{text.link}}><button class="btn">{{text.btn}}</button></router-link>
 
     </carousel-text>
     <ul>
