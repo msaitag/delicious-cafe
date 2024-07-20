@@ -29,7 +29,7 @@
               <router-link to="/blog" class="footer-navigation"><p>{{ blog.title }}</p></router-link>               
             </li>
         </div>
-        <a class="view-more" href="">View All Posts</a>
+          <router-link class="view-more" to="/menu">View All Posts</router-link>
         </div>
         <div class="footer-item"><h2>Instagram</h2>
             <div class="footer-insta">
