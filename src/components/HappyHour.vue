@@ -6,14 +6,19 @@
                 <div>
                 <h3>Delicious Food</h3>
                 <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.</p>
-                <button>View Menus</button>
+                  <router-link to="/menu">
+          <button>View Menus</button>
+        </router-link>
+                
                 </div>
             </div>
             <div class="special_events food-event" v-motion :initial="{ opacity: 0, y: 200}" :visible-once="{ opacity:1, y:0}">
                 <div>
                 <h3>Special Events</h3>
                 <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.</p>
-                <button>Go to Blog</button>
+                  <router-link to="/blog">
+          <button>Go to Blog</button>
+        </router-link>
                 </div>
             </div>
         </li>
